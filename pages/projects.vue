@@ -28,28 +28,28 @@ export default {
     projects: [
       {
         title: 'Sistem Ketertelusuran Kelapa Sawit Dengan Blockchain',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
+        content: 'Sistem ini bertujuan untuk mendeteksi buah kelapa sawit yang masuk ke Pabrik Kelapa Sawit (PKS). PKS cukup memindai QR Code setiap kali ada buah kelapa sawit yang masuk, dan informasi tentang buah kelapa sawit tersebut akan ditampilkan',
         tools: ['React JS', 'Ethereum', 'Material UI'],
         link: '',
         image: "sistem-ketertelusuran-kelapa-sawit.png"
       },
       {
         title: 'Application Android - Smart Parenting',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
+        content: 'Smart parenting adalah aplikasi yang memuat berbagai informasi mengenai pengasuhan anak usia 0-6 tahun. Aplikasi ini hadir dengan konten mitos fakta, info resiliensi, mediasi digital, bullying, neuro sains dan toilet training. Aplikasi ini bertujuan untuk memberikan pengetahuan kepada orang tua mengenai Pengasuhan pada anak. ',
         tools: ['Flutter', 'Firebase'],
         link: 'https://play.google.com/store/apps/details?id=com.paud_fkip_unri.smart_parenting',
         image: "smart-parenting.png"
       },
       {
         title: 'Website - Ruang Belajar',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
+        content: 'Ruang Belajar adalah sebuah website untuk siswa kelas 3 SD. Website ini membantu siswa dalam belajar bahasa Indonesia. Didalam website ini terdapat artikel yang dapat dibaca, video yang membantu siswa belajar, dan soal untuk siswa menguji kemampuannya.',
         tools: ['Laravel', 'MySQL', 'Bootstrap 4'],
         link: 'https://ruang-belajar.com/',
         image: "ruang-belajar.png"
       },
       {
         title: 'Sistem Informasi Manajemen - R1TA',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
+        content: 'Sistem dibuat untuk mengetahui pesebaran ODP, PSB Kendala, dan Sales Activity di Pekanbaru. Pesebarannya akan di tampilkan ke dalam Google Map dan pengguna dapat melihat lokasi masing-masing ODP, PSB Kendala, dan Sales Activity',
         tools: ['Laravel', 'MySQL', 'Vue JS', 'Vuetify'],
         link: 'https://r1ta.com/',
         image: "r1ta.png"
