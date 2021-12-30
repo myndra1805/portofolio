@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer app v-model="drawer" mini-variant class="side-nav">
+    <v-navigation-drawer app v-model="drawer" :mini-variant.sync="mini" class="side-nav">
       <div
         class="d-flex flex-column justify-space-between"
         style="height: 100%"
