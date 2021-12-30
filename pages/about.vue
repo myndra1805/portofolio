@@ -22,7 +22,8 @@
         <Profile />
       </v-col>
     </v-row>
-    <Education/>
+    <Education />
+    <Experience class="mt-10"/>
   </v-container>
 </template>
 

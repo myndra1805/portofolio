@@ -1,6 +1,12 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer app v-model="drawer" fixed mini-variant class="d-none d-md-flex">
+    <v-navigation-drawer
+      app
+      v-model="drawer"
+      fixed
+      mini-variant
+      class="d-none d-md-flex"
+    >
       <div
         class="d-flex flex-column justify-space-between"
         style="height: 100%"
