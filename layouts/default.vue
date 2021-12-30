@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer app v-model="drawer" :mini-variant.sync="mini" class="side-nav">
+    <v-navigation-drawer app v-model="drawer" fixed mini-variant class="d-none d-md-flex">
       <div
         class="d-flex flex-column justify-space-between"
         style="height: 100%"
@@ -26,7 +26,7 @@
     <v-main>
       <Nuxt />
     </v-main>
-    <v-bottom-navigation class="menu-bottombar" fixed style="z-index: 100">
+    <v-bottom-navigation class="d-flex d-md-none" fixed style="z-index: 100">
       <v-btn
         color="teal ligthen-1"
         icon
@@ -44,8 +44,7 @@
 <script>
 export default {
   data: () => ({
-    drawer: false,
-    mini: true,
+    drawer: true,
     group: null,
     links: [
       {
@@ -77,20 +76,3 @@ export default {
   }),
 };
 </script>
-
-<style scoped>
-.menu-bottombar {
-  display: none;
-}
-.side-nav {
-  display: flex;
-}
-@media screen and (max-width: 959px) {
-  .menu-bottombar {
-    display: flex;
-  }
-  .side-nav {
-    display: none;
-  }
-}
-</style>
