@@ -4,7 +4,7 @@
       <v-container style="height: 100%">
         <v-row align="center" style="height: 100%">
           <v-col sm="6" cols="12">
-            <h3 class="text-h4 teal--text text--lighten-1">Hello</h3>
+            <h3 class="text-h4 teal--text text--lighten-1">Hello, I'm</h3>
             <h1 class="text-h2 font-weight-black teal--text text--lighten-1">
               ARI YUHENDRA
             </h1>
