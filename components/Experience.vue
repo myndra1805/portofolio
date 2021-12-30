@@ -10,8 +10,9 @@
         v-for="(experience, i) in experiences"
         :key="i"
         fill-dot
+        icon="mdi-laptop"
         color="teal ligthen-1"
-        icon-color="teal ligthen-1"
+        icon-color="white"
       >
         <span slot="opposite">{{ experience.time }}</span>
         <v-card class="elevation-2" color="teal ligthen-1">
