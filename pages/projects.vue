@@ -12,7 +12,7 @@
     <project v-for="(project, i) in projects" :key="i"
       :title="project.title"
       :content="project.content"
-      :image="project.image"
+      :image="`/images/projects/${project.image}`"
       :number="`0${i + 1}.`"
       :tools="project.tools"
       :link="project.link"
@@ -31,28 +31,28 @@ export default {
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
         tools: ['React JS', 'Ethereum', 'Material UI'],
         link: '',
-        image: "https://picsum.photos/500/300?image="
+        image: "sistem-ketertelusuran-kelapa-sawit.png"
       },
       {
         title: 'Application Android - Smart Parenting',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
         tools: ['Flutter', 'Firebase'],
         link: 'https://play.google.com/store/apps/details?id=com.paud_fkip_unri.smart_parenting',
-        image: "/images/projects/smart-parenting.png"
+        image: "smart-parenting.png"
       },
       {
         title: 'Website - Ruang Belajar',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
         tools: ['Laravel', 'MySQL', 'Bootstrap 4'],
         link: 'https://ruang-belajar.com/',
-        image: "/images/projects/ruang-belajar.png"
+        image: "ruang-belajar.png"
       },
       {
         title: 'Sistem Informasi Manajemen - R1TA',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto nemo, dolorum rerum earum natus deleniti consequuntur asperiores eum quaerat quasi qui ipsam aliquam dolore excepturi obcaecati doloribus fugit debitis.',
         tools: ['Laravel', 'MySQL', 'Vue JS', 'Vuetify'],
         link: 'https://r1ta.com/',
-        image: "/images/projects/r1ta.png"
+        image: "r1ta.png"
       },
     ]
   }),
